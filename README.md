@@ -144,5 +144,25 @@
 
 # 3.4: Deploying Updates to the Production Server
 
+# In this step, I pull the latest changes from my GitHub repository into my ec2 instance. To achieve this I connected with my ec2 instance on my linux server using ssh, after which i pulled the changes using the command 
+# git pull origin main
+
+# After that, I restarted the web server before applying the changes with the command.
+
+# sudo system reload httpd
+
+# The result of this is displayed in the images below.
+
+![alt text](Images/Git_Capstone_Project_Gitpull.png)
+
+![alt text](Images/Git_Capstone_Project_Reload.png)
+
+# 3.5: Testing the New Changes
+
+# In this step i opened a web browser, navigated to the public IP address of my ec2 instance to test the new changes as shown in the image below
+
+![alt text](Images/Git_Capstone_Project_TestingChanges.png)
+
+
 
 
